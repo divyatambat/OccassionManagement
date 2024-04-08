@@ -1,0 +1,45 @@
+# Files in the config/locales directory are used for internationalization and
+# are automatically loaded by Rails. If you want to use locales other than
+# English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more about the API, please read the Rails Internationalization guide
+# at https://guides.rubyonrails.org/i18n.html.
+#
+# Be aware that YAML interprets the following case-insensitive strings as
+# booleans: `true`, `false`, `on`, `off`, `yes`, `no`. Therefore, these strings
+# must be quoted to be interpreted as strings. For example:
+#
+#     en:
+#       "yes": yup
+#       enabled: "ON"
+
+en:
+  errors:
+    unauthorized_access: "Unauthorized access"
+    record_not_found: "Record not found"
+    unauthorized_update: "Unauthorized to update"
+    unauthorized_delete: "Unauthorized to delete"
+    booking_create_failed: "Booking creation failed"
+    booking_update_failed: "Booking update failed"
+    user_create_failed: "User creation failed"
+    invalid_credentials: "Invalid credentials"
+    user_update_failed: "User update failed"
+    user_delete_failed: "User deletion failed"
+    venue_create_failed: "Venue creation failed"
+    venue_update_failed: "Venue update failed"
+    venue_delete_failed: "Venue deletion failed"
+
